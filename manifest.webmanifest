@@ -1,0 +1,48 @@
+{
+  "id": "./",
+  "name": "حسابداری حبیب",
+  "short_name": "حسابداری حبیب",
+  "description": "دفتر حسابداری شخصی حبیب با دریافت پیامک بانکی از طریق اشتراک‌گذاری",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff7e9",
+  "theme_color": "#073b78",
+  "categories": [
+    "finance",
+    "productivity"
+  ],
+  "share_target": {
+    "action": "./share-target/",
+    "method": "POST",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
